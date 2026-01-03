@@ -8,20 +8,21 @@
 }
 
 .bg {
+    transform: scale(0.75);
     position: absolute;
-    top: -0;
+    top: -12rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 50vh;
+    height: 75vh;
 }
 
 .introContent {
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
+    width: 75vw;
     padding: 2rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,15 +31,23 @@
 .hello {
     font-size: 1.75rem;
     font-weight: 200;
+    margin-bottom: 1rem;
 }
 
 .introName {
-    color: yellow; 
+    color: seagreen;
+}
+
+.introTitle {
+  display: block;
+  margin-top: 1rem;
 }
 
 .introPara {
+    margin-top: 1rem;
     font-size: medium;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .btn {
@@ -54,3 +63,4 @@
     margin: 0 0.25rem;
     height: 1rem;
 }
+
